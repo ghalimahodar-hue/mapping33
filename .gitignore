@@ -1,0 +1,15 @@
+# Secrets
+.env
+.env.*
+!.env.example
+# Private user data (the old local account store and local-dev data)
+auth-users.json
+auth-users.json.tmp
+local-state.json
+local-state.json.tmp
+data/
+# Node / OS
+node_modules/
+npm-debug.log*
+.DS_Store
+*.log

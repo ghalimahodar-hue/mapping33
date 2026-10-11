@@ -1,0 +1,14 @@
+{
+  "name": "engineerpath-ai",
+  "version": "2.2.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/server.test.js tests/supabase-store.test.js tests/config.test.js",
+    "migrate:users": "node scripts/migrate-users.js",
+    "check:supabase": "node scripts/check-supabase.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
